@@ -1,0 +1,15 @@
+Create a new repostitory on the command line
+```shell
+
+git init
+git add README.md
+git commit -m "first commit"
+
+```
+Push an existing repository from the command line
+```shell
+
+git remote add origin https://github.com/colin-dvlp/note_dvlp.git
+git push -u origin master
+
+```
