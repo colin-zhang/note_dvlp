@@ -10,7 +10,7 @@ Push an existing repository from the command line
 $git remote add origin https://github.com/colin-dvlp/note_dvlp.git
 $git push -u origin master
 ```
-or usr the git method instead of the `https` method to void inputh the github account password every time to `push` 
+or usr the git method instead of the `https` method to void input the github account password every time when `push` 
 ```sh
 $git remote rm origin
 $git remote add orgin git@github.com:colin-dvlp/note_dvlp.git
