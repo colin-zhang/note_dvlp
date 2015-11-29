@@ -1,0 +1,39 @@
+tar: This does not look like a tar archive
+ar: This does not look like a tar archive
+
+解决办法:
+               gzip -d xxxx.tar.gz
+               tar -xf xxxx.tar
+这是个BUG
+
+用tar -czvf /tmp/home.tar /home备份的时候末尾出现：
+tar: Error exit delayed from previous errors
+原因：
+这个命令是用普通用户做的，而/home/目录下来有一个root用户生成的文件。
+删除这个文件后就可以了
+
+--------------------------------------------------------------
+
+ss command
+--------------------------------------------------------------
+
+    首先要先确定一下是否建立了主repo的远程源：
+
+    git remote -v
+
+    如果里面只能看到你自己的两个源(fetch 和 push)，那就需要添加主repo的源：
+
+    git remote add upstream URL
+    git remote -v
+
+    然后你就能看到upstream了。
+
+    如果想与主repo合并：
+
+    git fetch upstream
+    git merge upstream/master
+
+-----------------------------------------------------------------
+http://openpyxl.readthedocs.org/en/latest/
+python lib to read/write excel files.
+-----------------------------------------------------------------
