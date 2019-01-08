@@ -1,4 +1,4 @@
-#Git
+# Git
 Create a new repostitory on the command line
 ```sh
 $ git init
@@ -16,12 +16,12 @@ $ git remote rm origin
 $ git remote add orgin git@github.com:colin-dvlp/note_dvlp.git
 ```
 
-#SSH key on laptop
+# SSH key on laptop
 ```sh
 $ ssh-keygen
 $ ssh-add your_key
 $ ssh -T git@github.com
-``` 
+```
 
 
 

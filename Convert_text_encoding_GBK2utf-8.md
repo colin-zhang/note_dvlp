@@ -1,8 +1,8 @@
-#Convert text from encoding GB2312 to UTF-8
+# Convert text from encoding GB2312 to UTF-8
 
 
 
-#How to judge the encoding is GB2312
+# How to judge the encoding is GB2312
 
 ```sh
 

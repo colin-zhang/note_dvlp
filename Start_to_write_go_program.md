@@ -1,4 +1,4 @@
-#Write the first Go code
+# Write the first Go code
 ```sh
 $ mkdir -p $GOPATH/src/github.com/colin-dvlp
 $ cd $GOPATH/src/github.com/colin-dvlp
