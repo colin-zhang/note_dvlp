@@ -21,13 +21,23 @@ gt , gT 可以直接在tab之间切换。
 更多可以查看帮助 :help table ， help -p
 ```
 
+编码问题
+```
+set encoding=utf-8
+set termencoding=utf-8
+set fileencodings=utf-8,gbk,latin1,gb2312
+```
 
-
+十六进制显示
+```
+:%!xxd -g 1 一字节一个组
+:%!xxd -g 4 四字节一个组
+:%!xxd -r 还原
+```
 
 
 #### 参考
 
 https://github.com/changemewtf/no_plugins/blob/master/no_plugins.vim    
-
 https://github.com/realzhangm/my_env/blob/master/.vimrc    
-
+https://blog.csdn.net/smstong/article/details/51279810    
