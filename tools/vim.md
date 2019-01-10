@@ -51,6 +51,19 @@ set fileencodings=utf-8,gbk,latin1,gb2312
 手动创建tags `:!ctags -R`, 创建快捷键`:nnoremap <f5> :!ctags -R<CR>`    
 :ts 显示查找的tag     
 
+去掉^M
+```
+几种去除^M的方法
+1、 cat filename1 | tr -d "\r" > newfile
+2、 sed -e "s/^V^M//" filename > outputfilename
+3、vi： 用vi打开文件
+  1. 按ESC键
+  2. 输入 :%s/^M//g
+
+  确定 ^M是使用 "CTRL-V CTRL-M" 而不是字面上的 ^M。这个正则式将替换所有回车符前的 ^M为空($是为了保证^M出现在行尾)
+  4、一些linux版本有 dos2unix 程序，可以用来祛除^M
+```
+
 
 #### 参考
 
