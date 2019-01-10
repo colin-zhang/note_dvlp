@@ -63,6 +63,9 @@ set fileencodings=utf-8,gbk,latin1,gb2312
   确定 ^M是使用 "CTRL-V CTRL-M" 而不是字面上的 ^M。这个正则式将替换所有回车符前的 ^M为空($是为了保证^M出现在行尾)
   4、一些linux版本有 dos2unix 程序，可以用来祛除^M
 ```
+复制一个单词: `yaw`    
+普通模式复制到命令行模式中：`Ctrl+r 0`     
+推出记录模式: `q`     
 
 
 #### 参考
