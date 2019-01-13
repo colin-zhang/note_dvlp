@@ -67,6 +67,12 @@ set fileencodings=utf-8,gbk,latin1,gb2312
 普通模式复制到命令行模式中：`Ctrl+r 0`     
 推出记录模式: `q`     
 
+clang-format支持：
+https://github.com/rhysd/vim-clang-format    
+将ClangFormat集成到vim后，就可以通过命令行方式格式化。
+Vim格式化代码命令:ClangFormat
+下面附件vim-clang-format-master.zip是在vim中集成clang-format工具的zip包，解压后复制 `plugin`, `doc` and `autoload` 三个目录到用户目录下的vim配置目录： `~/.vim`
+
 
 #### 参考
 
