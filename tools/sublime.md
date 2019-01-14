@@ -12,6 +12,10 @@
 	"tab_size": 4, 
 	"translate_tabs_to_spaces": true,
 	"show_encoding": true,
+    
+    //设置行宽
+    "word_wrap": true,
+    "wrap_width": 80,
 }
 ```
 
