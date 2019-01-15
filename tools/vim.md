@@ -73,6 +73,10 @@ https://github.com/rhysd/vim-clang-format
 Vim格式化代码命令:ClangFormat
 下面附件vim-clang-format-master.zip是在vim中集成clang-format工具的zip包，解压后复制 `plugin`, `doc` and `autoload` 三个目录到用户目录下的vim配置目录： `~/.vim`
 
+转换字符编码
+```
+:argdo set fenc=utf-8 | update
+```
 
 #### 参考
 
