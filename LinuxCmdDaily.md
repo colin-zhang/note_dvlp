@@ -12,3 +12,7 @@ grep
 
 grep -R xx src
 ```
+高亮显示
+```
+export GREP_OPTIONS="--color=auto"
+```
