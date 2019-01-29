@@ -16,3 +16,9 @@ grep -R xx src
 ```
 export GREP_OPTIONS="--color=auto"
 ```
+
+查找动态的日志
+```
+tailf
+```
+
