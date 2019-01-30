@@ -21,4 +21,7 @@ export GREP_OPTIONS="--color=auto"
 ```
 tailf
 ```
-
+wget ftp下载文件
+```
+wget --ftp-user=xxx --ftp-password=xxx ftp://xxxx/xxx/xxx.file
+```
